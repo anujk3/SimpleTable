@@ -21,6 +21,7 @@
 		65B1B4A119BA326A00513392 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B1B48319BA326A00513392 /* UIKit.framework */; };
 		65B1B4A919BA326A00513392 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65B1B4A719BA326A00513392 /* InfoPlist.strings */; };
 		65B1B4AB19BA326A00513392 /* SimpleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B1B4AA19BA326A00513392 /* SimpleTableTests.m */; };
+		65B1B53719BA409300513392 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65B1B53619BA409300513392 /* creme_brelee.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		65B1B4A619BA326A00513392 /* SimpleTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableTests-Info.plist"; sourceTree = "<group>"; };
 		65B1B4A819BA326A00513392 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65B1B4AA19BA326A00513392 /* SimpleTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableTests.m; sourceTree = "<group>"; };
+		65B1B53619BA409300513392 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		65B1B48519BA326A00513392 /* SimpleTable */ = {
 			isa = PBXGroup;
 			children = (
+				65B1B53619BA409300513392 /* creme_brelee.jpg */,
 				65B1B48E19BA326A00513392 /* SimpleTableAppDelegate.h */,
 				65B1B48F19BA326A00513392 /* SimpleTableAppDelegate.m */,
 				65B1B49119BA326A00513392 /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B1B49819BA326A00513392 /* Images.xcassets in Resources */,
+				65B1B53719BA409300513392 /* creme_brelee.jpg in Resources */,
 				65B1B48A19BA326A00513392 /* InfoPlist.strings in Resources */,
 				65B1B49319BA326A00513392 /* Main.storyboard in Resources */,
 			);
@@ -457,6 +461,7 @@
 				65B1B4B019BA326A00513392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B1B4B119BA326A00513392 /* Build configuration list for PBXNativeTarget "SimpleTableTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				65B1B4B319BA326A00513392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
